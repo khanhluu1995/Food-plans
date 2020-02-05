@@ -1,0 +1,134 @@
+@media only screen and (max-width: 480px) {
+    .main-nav li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row,
+    .herotextbox {
+        padding: 0 4%;
+    }
+    .col {
+        width: 100%;
+    }
+    .main-nav {
+        display: none;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .long_text {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .works_step div {
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        float: left;
+        margin-right: 15px;
+    }
+    .works_step {
+        margin-bottom: 20px;
+    }
+    .works_step:last-of-type {
+        margin-bottom: 20px;
+    }
+    .city_info {
+        font-size: 10%;
+    }
+    .mobile_nav_icon {
+        display: inline-block;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 8px 0;
+    }
+    .sticky .mobile_nav_icon {
+        margin-top: 10px;
+    }
+    .sticky .mobile_nav_icon i {
+        color: #555;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long_text {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .step_box {
+        margin-top: 10px;
+    }
+    .works_step {
+        margin-bottom: 40px;
+    }
+    .works_step:last-of-type {
+        margin-bottom: 60px;
+    }
+    .steps_box:last-child {
+        margin-top: 10px;
+    }
+    .city_info i {
+        width: 15px;
+    }
+    .city_info {
+        font-size: 90%;
+    }
+    .plan_box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan_box ul li {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .herotextbox {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+    .mobile_nav_icon .ion-md-menu {
+        display: none;
+    }
+}
